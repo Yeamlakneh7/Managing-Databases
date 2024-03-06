@@ -8,6 +8,6 @@ const connection = mysql.createConnection({
     password: "MySQL@1552", 
     database: "Company"
 });
-app.listen(2324, ()=> {
+app.listen(2324, ()=> { cc
     console.log('Working');
 })
